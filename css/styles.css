@@ -1,0 +1,216 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.basic-stile {
+    font-family: 'Roboto';
+}
+
+:root {
+    --selection: #2196F3;
+    --black-color: #2F303A;
+    --white-color: #FFFFFF;
+    --alternative-white: #F5F4FA;
+}
+
+.select:hover {
+    color: var(--selection);
+}
+
+.small-text {
+    font-weight: 400px;
+    color: var(--black-color);
+    line-height: normal;
+    font-size: 16px;
+}
+
+.normal-text {
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+.index-button {
+    width: 1600px;
+    height: 600px;
+}
+
+.index-button .normal-text {
+    font-size: 16px;
+}
+
+.section-backgroung {
+    background-color: var(--alternative-white);
+}
+
+.big-text {
+    text-transform: uppercase;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.buttons  .choice {
+    padding-top: 38px;
+    background-color: var(--alternative-white);
+    border: none;
+}
+
+.white-text {
+    color: var(--white-color)
+}
+
+.footer-adress .link {
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.portfolio-list .small-text {
+    font-weight: 400px;
+    font-size: 16px;
+}
+
+.portfolio-list li {
+    padding: 50px;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.9;
+
+    letter-spacing: 0.03em;
+}
+
+.gray-text {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.black-text {
+    color: black;
+}
+
+.blue-text {
+    color: var(--selection);
+}
+
+.blue-button {
+    background-color: var(--selection);
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 184px;
+    padding-right: 184px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.blue-button:focus {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-list .h3 {
+    font-weight: 700;
+    font-size: 18;
+}
+
+.alternativ-style {
+    font-family: 'Raleway';
+    color: var(--selection);
+}
+
+.buttons .choice:hover {
+    background-color: var(--selection);
+    color: var(--white-color);
+    cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;   
+}
+
+.black-beckground {
+    background-color: var(--black-color);
+}
+
+.upper-text {
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+}
+
+.linelist {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--selection);
+}
+
+link:focus {
+    color: var(--selection);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.indexcontainer {
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.headerline {
+    display: inline-flex;
+    gap: 50px;
+}
+
+.endflex li{
+    align-self: flex-end;
+}
+
+.listline  li {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.basicline li {
+    display: inline-block;
+    margin: 0 auto;
+    gap: 30px;
+}
